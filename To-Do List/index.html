@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <title>To-Do List</title>
+</head>
+<body>
+<div class="container">
+    <h2 class="title">TO DO LIST</h2>
+    <form>
+        <div class="form__adder">
+            <input type="text" name="" id="add-text" placeholder="Add New Task">
+            <button id="add-button" title="Add Task">+</button>
+        </div>
+        <div class="form__items">
+            <ul id="form__list">
+                <li class="form__item">
+                    <input type='checkbox' class='form__check'>
+                    <div class="item__title">
+                        <span class='form__item-title' style="display: block;">Enter Your First Task</span>
+                        <input type="text" name="" id="item-editor" placeholder="Edit Task">
+                    </div>
+                    <i class='fa-solid fa-pencil edit-btn' id='edit-btn' title='Edit Task'></i>
+                    <i class='fa-regular fa-trash-can delete-btn' id='delete-btn' title='Delete Task'></i>
+                </li>
+            </ul>
+        </div>
+        <div class="form__search">
+            <input type="text" name="" id="search-text" placeholder="Search Task">
+        </div>
+    </form>
+</div>
+<script src="https://kit.fontawesome.com/393c97b4e1.js" crossorigin="anonymous"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
